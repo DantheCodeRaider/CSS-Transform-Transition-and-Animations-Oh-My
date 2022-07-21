@@ -7,8 +7,17 @@ body  {
 
 .caption {
   width: 80%;
+  min-width: 80%;
+  max-width: 80%;
   margin: auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
   overflow: hidden;
+  position: relative;
+}
+
+h2 {
+  text-align: left;
 }
 
 img {
@@ -20,8 +29,10 @@ button {
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  background-color: ghostwhite;
 }
 
 button:hover {
   background-color: cornflowerblue;
+  color: ghostwhite;
 }

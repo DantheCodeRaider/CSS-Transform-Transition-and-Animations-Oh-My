@@ -16,6 +16,7 @@
   animation-name: bottom;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  transition: rotate(-45deg);
 }
 
 nav {
@@ -28,16 +29,22 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;}
+  to {
+    background-color: ghostwhite;
+    transform: translateY(34px) rotate(45deg);
+  }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;}
+  to {background-color: mediumvioletred;}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;}
+  to {
+    background-color: ghostwhite;
+    transform: translateY(-34px) rotate(-45deg);
+  }
 }
